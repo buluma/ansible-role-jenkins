@@ -1,0 +1,2 @@
+- name: Publish Ansible role to Galaxy
+  uses: robertdebock/galaxy-action@1.1.1
