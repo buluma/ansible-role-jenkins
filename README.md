@@ -1,6 +1,6 @@
 # Ansible Role: Jenkins CI
 
-[![GitHub Action](https://github.com/buluma/ansible-role-jenkins/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/buluma/ansible-role-jenkins/actions/workflows/ci.yml)
+[![CI](https://github.com/buluma/ansible-role-jenkins/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/buluma/ansible-role-jenkins/actions/workflows/ci.yml)
 [![Build Status](https://travis-ci.org/buluma/ansible-role-jenkins.svg?branch=master)](https://travis-ci.org/buluma/ansible-role-jenkins)
 
 Installs Jenkins CI on RHEL/CentOS and Debian/Ubuntu servers.
