@@ -111,7 +111,7 @@ Changes made to the Jenkins init script; the default set of changes set the conf
 
 ## Dependencies
 
-  - geerlingguy.java
+  - buluma.java
 
 ## Example Playbook
 
@@ -120,8 +120,8 @@ Changes made to the Jenkins init script; the default set of changes set the conf
   vars:
     jenkins_hostname: jenkins.example.com
   roles:
-    - role: geerlingguy.java
-    - role: geerlingguy.jenkins
+    - role: buluma.java
+    - role: buluma.jenkins
       become: true
 ```
 
