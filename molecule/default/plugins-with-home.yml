@@ -15,8 +15,8 @@
     - include_tasks: java-8.yml
 
   roles:
-    - geerlingguy.java
-    - geerlingguy.jenkins
+    - buluma.java
+    - buluma.jenkins
 
   post_tasks:
     - name: Verify JENKINS_HOME is correct.
