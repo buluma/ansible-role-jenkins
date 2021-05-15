@@ -7,8 +7,8 @@
     jenkins_version: "2.220"
 
   roles:
-    - buluma.java
-    - buluma.jenkins
+    - geerlingguy.java
+    - geerlingguy.jenkins
 
   post_tasks:
     - name: Check installed version of Jenkins.
