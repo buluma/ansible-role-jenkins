@@ -1,6 +1,6 @@
 # Ansible Role: Jenkins CI
 
-[![CI](https://github.com/geerlingguy/ansible-role-jenkins/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-jenkins/actions?query=workflow%3ACI)
+[![CI](https://github.com/buluma/ansible-role-jenkins/workflows/CI/badge.svg?event=push)](https://github.com/buluma/ansible-role-jenkins/actions?query=workflow%3ACI) [![Release](https://github.com/buluma/ansible-role-jenkins/actions/workflows/release.yml/badge.svg)](https://github.com/buluma/ansible-role-jenkins/actions/workflows/release.yml)
 
 Installs Jenkins CI on RHEL/CentOS and Debian/Ubuntu servers.
 
@@ -134,8 +134,8 @@ None.
       - openjdk-8-jdk
 
   roles:
-    - role: geerlingguy.java
-    - role: geerlingguy.jenkins
+    - role: buluma.java
+    - role: buluma.jenkins
 ```
 
 Note that `java_packages` may need different versions depending on your distro (e.g. `openjdk-11-jdk` for Debian 10, or `java-1.8.0-openjdk` for RHEL 7 or 8).
@@ -146,4 +146,4 @@ MIT (Expat) / BSD
 
 ## Author Information
 
-This role was created in 2014 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
+This role was created in 2021 by [Michael Buluma](https://www.github.com/buluma).
