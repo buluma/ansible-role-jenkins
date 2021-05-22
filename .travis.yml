@@ -38,7 +38,8 @@ before_script:
   - cd ../
   - mv ansible-role-$ROLE_NAME buluma.$ROLE_NAME
   - pwd && ls -a
-  - cd buluma.$ROLE_NAME
+  - cd buluma.jenkins
+  - pwd && ls -a
 
 script:
   # Run tests.
