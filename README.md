@@ -32,7 +32,7 @@ The machine needs to be prepared. In CI this is done using `molecule/default/pre
     - role: buluma.bootstrap
     - role: buluma.epel
     - role: buluma.java
-    - role: robertdebock.locale
+    - role: buluma.locale
     - role: buluma.core_dependencies
 ```
 
@@ -64,7 +64,7 @@ The following roles are used to prepare a system. You can prepare your system in
 |[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
 |[buluma.epel](https://galaxy.ansible.com/buluma/epel)|[![Build Status GitHub](https://github.com/buluma/ansible-role-epel/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-epel/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-epel/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-epel)|
 |[buluma.java](https://galaxy.ansible.com/buluma/java)|[![Build Status GitHub](https://github.com/buluma/ansible-role-java/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-java/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-java/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-java)|
-|[robertdebock.locale](https://galaxy.ansible.com/buluma/robertdebock.locale)|[![Build Status GitHub](https://github.com/buluma/robertdebock.locale/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/robertdebock.locale/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/robertdebock.locale/badges/main/pipeline.svg)](https://gitlab.com/buluma/robertdebock.locale)|
+|[buluma.locale](https://galaxy.ansible.com/buluma/locale)|[![Build Status GitHub](https://github.com/buluma/ansible-role-locale/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-locale/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-locale/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-locale)|
 |[buluma.core_dependencies](https://galaxy.ansible.com/buluma/core_dependencies)|[![Build Status GitHub](https://github.com/buluma/ansible-role-core_dependencies/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-core_dependencies/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-core_dependencies/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-core_dependencies)|
 
 ## [Context](#context)
