@@ -4,7 +4,7 @@ Install and configure jenkins on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-jenkins/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-jenkins/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-jenkins/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-jenkins)|[![quality](https://img.shields.io/ansible/quality/24179)](https://galaxy.ansible.com/buluma/jenkins)|[![downloads](https://img.shields.io/ansible/role/d/24179)](https://galaxy.ansible.com/buluma/jenkins)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/releases/)|
+|[![github](https://github.com/buluma/ansible-role-jenkins/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-jenkins/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-jenkins/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-jenkins)|[![quality](https://img.shields.io/ansible/quality/57941)](https://galaxy.ansible.com/buluma/jenkins)|[![downloads](https://img.shields.io/ansible/role/d/57941)](https://galaxy.ansible.com/buluma/jenkins)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
