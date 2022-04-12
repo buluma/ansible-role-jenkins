@@ -87,12 +87,12 @@
     - name: Check Jenkins work (Get Jenkins Crumb).
       ansible.builtin.uri:
         force_basic_auth: yes
-        url_username:     "admin"
-        url_password:     "{{ adminpwd.stdout }}"
-        url:              http://localhost:8080/crumbIssuer/api/json
-        return_content:   yes
-      retries:            10
-      delay:              5
+        url_username: "admin"
+        url_password: "{{ adminpwd.stdout }}"
+        url: http://localhost:8080/crumbIssuer/api/json
+        return_content: yes
+      retries: 10
+      delay: 5
 
     - name: Print adminpwd var
       debug:
