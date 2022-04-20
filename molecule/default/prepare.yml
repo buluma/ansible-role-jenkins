@@ -10,3 +10,4 @@
     - role: buluma.java
     - role: buluma.locale
     - role: buluma.core_dependencies
+    - role: buluma.systemd
