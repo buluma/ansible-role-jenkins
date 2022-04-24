@@ -22,10 +22,6 @@ molecule:
         tag: "7"
       - image: "enterpriselinux"
         tag: "latest"
-      - image: "fedora-systemd"
-        tag: "34"
-      - image: "fedora-systemd"
-        tag: "latest"
 
 testing:
   script:
