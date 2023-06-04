@@ -20,12 +20,6 @@ molecule:
         tag: "8"
       - image: "enterpriselinux"
         tag: "latest"
-      - image: "fedora-systemd"
-        tag: "36"
-      - image: "fedora-systemd"
-        tag: "37"
-      - image: "fedora-systemd"
-        tag: "latest"
 
 galaxy:
   script:

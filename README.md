@@ -27,13 +27,14 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 ---
 - name: Prepare
   hosts: all
-  gather_facts: no
   become: yes
+  gather_facts: no
 
   roles:
     - role: buluma.bootstrap
     - role: buluma.epel
     - role: buluma.java
+      java_default_version: 11
     - role: buluma.locale
     - role: buluma.core_dependencies
 ```
@@ -53,6 +54,9 @@ jenkins_port: 8080
 
 # What address Jenkins should bind to.
 jenkins_listen_address: "0.0.0.0"
+
+# The version of Jenkins to install. Not specifying a version, will install the latest available.
+# jenkins_version: "2.399.1"
 ```
 
 ## [Requirements](#requirements)
@@ -87,7 +91,6 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |---------|----|
 |[Debian](https://hub.docker.com/repository/docker/buluma/debian/general)|bullseye|
 |[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|all|
-|[Fedora](https://hub.docker.com/repository/docker/buluma/fedora/general)|all|
 
 The minimum version of Ansible required is 2.12, tests have been done to:
 
@@ -107,7 +110,7 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [Author Information](#author-information)
 
-[Michael Buluma](https://buluma.github.io/)
+[buluma](https://buluma.github.io/)
 
 Please consider [sponsoring me](https://github.com/sponsors/buluma).
 
