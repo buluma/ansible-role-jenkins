@@ -2,9 +2,9 @@
 
 Install and configure jenkins on your system.
 
-|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-jenkins/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-jenkins/actions/workflows/molecule.yml)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-jenkins/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-jenkins)|[![downloads](https://img.shields.io/ansible/role/d/4741)](https://galaxy.ansible.com/buluma/jenkins)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/pulls/)|
+|GitHub|Version|Issues|Pull Requests|
+|------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-jenkins/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-jenkins/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -67,13 +67,13 @@ jenkins_listen_address: "0.0.0.0"
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | GitLab |
+| Requirement | GitHub | Version |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
-|[buluma.epel](https://galaxy.ansible.com/buluma/epel)|[![Build Status GitHub](https://github.com/buluma/ansible-role-epel/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-epel/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-epel/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-epel)|
-|[buluma.java](https://galaxy.ansible.com/buluma/java)|[![Build Status GitHub](https://github.com/buluma/ansible-role-java/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-java/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-java/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-java)|
-|[buluma.locale](https://galaxy.ansible.com/buluma/locale)|[![Build Status GitHub](https://github.com/buluma/ansible-role-locale/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-locale/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-locale/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-locale)|
-|[buluma.core_dependencies](https://galaxy.ansible.com/buluma/core_dependencies)|[![Build Status GitHub](https://github.com/buluma/ansible-role-core_dependencies/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-core_dependencies/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-core_dependencies/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-core_dependencies)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
+|[buluma.epel](https://galaxy.ansible.com/buluma/epel)|[![Build Status GitHub](https://github.com/buluma/ansible-role-epel/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-epel/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-epel.svg)](https://github.com/shadowwalker/ansible-role-epel)|
+|[buluma.java](https://galaxy.ansible.com/buluma/java)|[![Build Status GitHub](https://github.com/buluma/ansible-role-java/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-java/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-java.svg)](https://github.com/shadowwalker/ansible-role-java)|
+|[buluma.locale](https://galaxy.ansible.com/buluma/locale)|[![Build Status GitHub](https://github.com/buluma/ansible-role-locale/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-locale/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-locale.svg)](https://github.com/shadowwalker/ansible-role-locale)|
+|[buluma.core_dependencies](https://galaxy.ansible.com/buluma/core_dependencies)|[![Build Status GitHub](https://github.com/buluma/ansible-role-core_dependencies/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-core_dependencies/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-core_dependencies.svg)](https://github.com/shadowwalker/ansible-role-core_dependencies)|
 
 ## [Context](#context)
 
@@ -112,7 +112,6 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 [buluma](https://buluma.github.io/)
 
-Please consider [sponsoring me](https://github.com/sponsors/buluma).
 
 ### [Special Thanks](#special-thanks)
 
