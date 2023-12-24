@@ -1,10 +1,10 @@
-# [Ansible role jenkins](#jenkins)
+# Ansible role [jenkins](https://galaxy.ansible.com/ui/standalone/roles/buluma/jenkins/documentation)
 
 Install and configure jenkins on your system.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-jenkins/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-jenkins/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-jenkins/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-jenkins/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/jenkins)](https://galaxy.ansible.com/ui/standalone/roles/buluma/jenkins/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -106,13 +106,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-jenkins/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-jenkins/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
