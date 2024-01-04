@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-jenkins/tree/HEAD)
+## [4.4.0](https://github.com/buluma/ansible-role-jenkins/tree/4.4.0) (2024-01-02)
 
-[Full Changelog](https://github.com/buluma/ansible-role-jenkins/compare/4.3.13...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-jenkins/compare/4.3.13...4.4.0)
 
 **Closed issues:**
 
