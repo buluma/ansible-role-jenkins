@@ -56,7 +56,7 @@ jenkins_port: 8080
 jenkins_listen_address: "0.0.0.0"
 
 # The version of Jenkins to install. Not specifying a version, will install the latest available.
-# jenkins_version: "2.399.1"
+# jenkins_version: "2.439"
 ```
 
 ## [Requirements](#requirements)
@@ -111,4 +111,3 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [Shadow Walker](https://buluma.github.io/)
-
