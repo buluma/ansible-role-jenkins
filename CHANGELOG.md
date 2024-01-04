@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-jenkins/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-jenkins/compare/4.5.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump actions/checkout from 3 to 4 [\#35](https://github.com/buluma/ansible-role-jenkins/pull/35) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [4.5.0](https://github.com/buluma/ansible-role-jenkins/tree/4.5.0) (2024-01-04)
+
+[Full Changelog](https://github.com/buluma/ansible-role-jenkins/compare/4.4.0...4.5.0)
+
 ## [4.4.0](https://github.com/buluma/ansible-role-jenkins/tree/4.4.0) (2024-01-02)
 
 [Full Changelog](https://github.com/buluma/ansible-role-jenkins/compare/4.3.13...4.4.0)
