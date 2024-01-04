@@ -56,7 +56,7 @@ jenkins_port: 8080
 jenkins_listen_address: "0.0.0.0"
 
 # The version of Jenkins to install. Not specifying a version, will install the latest available.
-jenkins_version: "2.426.2"
+# jenkins_version: "2.439"
 ```
 
 ## [Requirements](#requirements)
@@ -89,11 +89,8 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|[Debian](https://hub.docker.com/repository/docker/buluma/debian/general)|all|
+|[Debian](https://hub.docker.com/repository/docker/buluma/debian/general)|bullseye|
 |[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|all|
-|[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|all|
-|[Fedora](https://hub.docker.com/repository/docker/buluma/fedora/general)|all|
-|[opensuse](https://hub.docker.com/repository/docker/buluma/opensuse/general)|all|
 
 The minimum version of Ansible required is 2.12, tests have been done to:
 
@@ -114,4 +111,3 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [Shadow Walker](https://buluma.github.io/)
-
