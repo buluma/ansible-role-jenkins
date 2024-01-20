@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#37](https://github.com/buluma/ansible-role-jenkins/pull/37) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 3 to 4 [\#35](https://github.com/buluma/ansible-role-jenkins/pull/35) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [4.5.0](https://github.com/buluma/ansible-role-jenkins/tree/4.5.0) (2024-01-04)
