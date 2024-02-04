@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-jenkins/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-jenkins/compare/4.6.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump release-drafter/release-drafter from 5 to 6 [\#38](https://github.com/buluma/ansible-role-jenkins/pull/38) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [4.6.0](https://github.com/buluma/ansible-role-jenkins/tree/4.6.0) (2024-01-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-jenkins/compare/4.5.0...4.6.0)
