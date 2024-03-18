@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#40](https://github.com/buluma/ansible-role-jenkins/pull/40) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#39](https://github.com/buluma/ansible-role-jenkins/pull/39) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#38](https://github.com/buluma/ansible-role-jenkins/pull/38) ([dependabot[bot]](https://github.com/apps/dependabot))
 
