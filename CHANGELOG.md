@@ -4,6 +4,11 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-jenkins/compare/4.6.0...HEAD)
 
+**Closed issues:**
+
+- Update action [\#33](https://github.com/buluma/ansible-role-jenkins/issues/33)
+- rebuild action [\#32](https://github.com/buluma/ansible-role-jenkins/issues/32)
+
 **Merged pull requests:**
 
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#40](https://github.com/buluma/ansible-role-jenkins/pull/40) ([dependabot[bot]](https://github.com/apps/dependabot))
