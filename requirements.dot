@@ -1,0 +1,17 @@
+digraph PhiloDilemma {
+  label = "Michael Buluma" ;
+  overlap=false
+  {
+    "jenkins" [fillcolor=yellow style=filled penwidth=3]
+    "buluma.bootstrap" [fillcolor=green style=filled]
+    "buluma.epel" [fillcolor=green style=filled]
+    "buluma.java" [fillcolor=green style=filled]
+    "buluma.locale" [fillcolor=green style=filled]
+    "buluma.core_dependencies" [fillcolor=green style=filled]
+  }
+  "jenkins" -> "buluma.bootstrap"
+  "jenkins" -> "buluma.epel"
+  "jenkins" -> "buluma.java"
+  "jenkins" -> "buluma.locale"
+  "jenkins" -> "buluma.core_dependencies"
+}
