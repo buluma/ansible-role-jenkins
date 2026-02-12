@@ -1,10 +1,10 @@
-# Ansible role [jenkins](https://galaxy.ansible.com/ui/standalone/roles/buluma/jenkins/documentation)
+# [Ansible role jenkins](#ansible-role-jenkins)
 
 Install and configure jenkins on your system.
 
-|GitHub|Version|Issues|Pull Requests|Downloads|
-|------|-------|------|-------------|---------|
-|[![github](https://github.com/buluma/ansible-role-jenkins/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-jenkins/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/jenkins)](https://galaxy.ansible.com/ui/standalone/roles/buluma/jenkins/documentation)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/buluma/ansible-role-jenkins/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-jenkins/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-jenkins/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-jenkins)|[![downloads](https://img.shields.io/ansible/role/d/buluma/jenkins)](https://galaxy.ansible.com/buluma/jenkins)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-jenkins.svg)](https://github.com/buluma/ansible-role-jenkins/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -67,20 +67,19 @@ jenkins_listen_address: "0.0.0.0"
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | Version |
+| Requirement | GitHub | GitLab |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Ansible Molecule](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
-|[buluma.epel](https://galaxy.ansible.com/buluma/epel)|[![Ansible Molecule](https://github.com/buluma/ansible-role-epel/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-epel/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-epel.svg)](https://github.com/shadowwalker/ansible-role-epel)|
-|[buluma.java](https://galaxy.ansible.com/buluma/java)|[![Ansible Molecule](https://github.com/buluma/ansible-role-java/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-java/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-java.svg)](https://github.com/shadowwalker/ansible-role-java)|
-|[buluma.locale](https://galaxy.ansible.com/buluma/locale)|[![Ansible Molecule](https://github.com/buluma/ansible-role-locale/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-locale/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-locale.svg)](https://github.com/shadowwalker/ansible-role-locale)|
-|[buluma.core_dependencies](https://galaxy.ansible.com/buluma/core_dependencies)|[![Ansible Molecule](https://github.com/buluma/ansible-role-core_dependencies/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-core_dependencies/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-core_dependencies.svg)](https://github.com/shadowwalker/ansible-role-core_dependencies)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
+|[buluma.epel](https://galaxy.ansible.com/buluma/epel)|[![Build Status GitHub](https://github.com/buluma/ansible-role-epel/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-epel/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-epel/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-epel)|
+|[buluma.java](https://galaxy.ansible.com/buluma/java)|[![Build Status GitHub](https://github.com/buluma/ansible-role-java/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-java/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-java/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-java)|
+|[buluma.locale](https://galaxy.ansible.com/buluma/locale)|[![Build Status GitHub](https://github.com/buluma/ansible-role-locale/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-locale/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-locale/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-locale)|
+|[buluma.core_dependencies](https://galaxy.ansible.com/buluma/core_dependencies)|[![Build Status GitHub](https://github.com/buluma/ansible-role-core_dependencies/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-core_dependencies/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-core_dependencies/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-core_dependencies)|
 
 ## [Context](#context)
 
-This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
+This role is part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
 
 Here is an overview of related roles:
-
 ![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-jenkins/png/requirements.png "Dependencies")
 
 ## [Compatibility](#compatibility)
@@ -89,26 +88,23 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|[Debian](https://hub.docker.com/r/buluma/debian)|bullseye|
-|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|8|
+|[Debian](https://hub.docker.com/r/buluma/debian)|all|
+|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|all|
 |[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|all|
 
-The minimum version of Ansible required is 2.12, tests have been done to:
+The minimum version of Ansible required is 2.12, tests have been done on:
 
 - The previous version.
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/buluma/ansible-role-jenkins/issues)
-
-## [Changelog](#changelog)
-
-[Role History](https://github.com/buluma/ansible-role-jenkins/blob/master/CHANGELOG.md)
+If you find issues, please register them on [GitHub](https://github.com/buluma/ansible-role-jenkins/issues).
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-jenkins/blob/master/LICENSE)
+[Apache-2.0](https://github.com/buluma/ansible-role-jenkins/blob/master/LICENSE).
 
 ## [Author Information](#author-information)
 
-[Shadow Walker](https://buluma.github.io/)
+[buluma](https://buluma.github.io/)
+
