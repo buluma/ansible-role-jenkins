@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test jenkins_port
   ansible.builtin.assert:
     that:
