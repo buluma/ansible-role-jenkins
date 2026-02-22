@@ -1,21 +1,17 @@
 ---
-# tasks file for jenkins
-
 - name: Import assert.yml
   ansible.builtin.import_tasks:
     file: assert.yml
-  run_once: true
   delegate_to: localhost
-
+  run_once: true
 - name: Add yum repository
   ansible.builtin.get_url:
-    url: "{{ jenkins_yum_repository_baseurl }}"
     dest: /etc/yum.repos.d/jenkins.repo
-    validate_certs: false
     mode: "0644"
+    url: "{{ jenkins_yum_repository_baseurl }}"
+    validate_certs: false
   when:
     - ansible_pkg_mgr in [ "dnf", "yum" ]
-
 - name: Import rpm key
   ansible.builtin.rpm_key:
     key: "{{ jenkins_rpm_key }}"
@@ -23,21 +19,18 @@
     validate_certs: false
   when:
     - ansible_pkg_mgr in [ "dnf", "yum", "zypper" ]
-
 - name: Configure apt
   when:
     - ansible_pkg_mgr == "apt"
   block:
     - name: Add apt key
       ansible.builtin.apt_key:
-        url: "{{ jenkins_apt_key_url }}"
         state: present
-
+        url: "{{ jenkins_apt_key_url }}"
     - name: Add apt repository
       ansible.builtin.apt_repository:
         repo: "{{ jenkins_apt_repository_repo }}"
         state: present
-
 - name: Add zypper repository
   community.general.zypper_repository:
     name: jenkins
@@ -45,38 +38,33 @@
     state: present
   when:
     - ansible_pkg_mgr == "zypper"
-
 - name: Install requirements
   ansible.builtin.package:
     name: "{{ jenkins_requirements }}"
     state: present
-
 - name: Install jenkins (specific version)
   ansible.builtin.package:
     name: "{{ jenkins_package }}"
     state: present
   when:
     - jenkins_version is defined
-
 - name: Install jenkins
   ansible.builtin.package:
     name: jenkins
     state: present
   when:
     - jenkins_version is not defined
-
 - name: Configure jenkins
   ansible.builtin.template:
-    src: jenkins.j2
+    backup: true
     dest: "{{ jenkins_configuration_directory }}/jenkins"
     force: true
-    backup: true
     mode: "0644"
+    src: jenkins.j2
   notify:
     - Restart jenkins
-
 - name: Manage jenkins service
   ansible.builtin.service:
+    enabled: true
     name: jenkins
     state: started
-    enabled: true
