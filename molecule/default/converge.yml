@@ -1,6 +1,7 @@
-- become: true
-  gather_facts: true
-  hosts: all
-  name: Converge
-  roles:
-  - role: buluma.jenkins
+---
+  - become: true
+    gather_facts: true
+    hosts: all
+    name: Converge
+    roles:
+      - role: buluma.jenkins

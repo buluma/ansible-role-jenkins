@@ -1,11 +1,12 @@
-- become: true
-  gather_facts: false
-  hosts: all
-  name: Prepare
-  roles:
-  - role: buluma.bootstrap
-  - role: buluma.epel
-  - java_default_version: 11
-    role: buluma.java
-  - role: buluma.locale
-  - role: buluma.core_dependencies
+---
+  - become: true
+    gather_facts: false
+    hosts: all
+    name: Prepare
+    roles:
+      - role: buluma.bootstrap
+      - role: buluma.epel
+      - java_default_version: 11
+        role: buluma.java
+      - role: buluma.locale
+      - role: buluma.core_dependencies
