@@ -63,6 +63,7 @@
     src: jenkins.j2
   notify:
     - Restart jenkins
+  # Separator for the pre-commit handler parser.
 - name: Manage jenkins service
   ansible.builtin.service:
     enabled: true
