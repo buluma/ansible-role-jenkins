@@ -4,12 +4,12 @@
   hosts: all
   name: Verify
   tasks:
-  - ansible.builtin.ping:
-    name: Check if connection still works
-  - ansible.builtin.uri:
-      return_content: true
-      url: http://localhost:8080/login
-    failed_when:
-    - '''Jenkins'' not in jenkins_check_web_ui.content'
-    name: Check web ui
-    register: jenkins_check_web_ui
+    - ansible.builtin.ping:
+      name: Check if connection still works
+    - ansible.builtin.uri:
+        return_content: true
+        url: http://localhost:8080/login
+      failed_when:
+        - "'Jenkins' not in jenkins_check_web_ui.content"
+      name: Check web ui
+      register: jenkins_check_web_ui
