@@ -45,7 +45,7 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 
 ```yaml
 ---
-jenkins_listen_address: 0.0.0.0
+jenkins_listen_address: "0.0.0.0"
 jenkins_port: 8080
 ```
 
@@ -98,3 +98,4 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
+
