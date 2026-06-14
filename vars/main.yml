@@ -16,9 +16,9 @@ _jenkins_requirements:
   default: []
 jenkins_apt_key_url: "https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key"
 jenkins_apt_repository_repo: "deb http://pkg.jenkins.io/debian-stable binary/"
-jenkins_configuration_directory: "{{ _jenkins_configuration_directory[ansible_facts.os_family] | default(_jenkins_configuration_directory['default']) }}"
-jenkins_package: "{{ _jenkins_package[ansible_facts.distribution] | default(_jenkins_package['default']) }}"
-jenkins_requirements: "{{ _jenkins_requirements[ansible_facts.os_family] | default(_jenkins_requirements['default']) }}"
+jenkins_configuration_directory: "{{ _jenkins_configuration_directory[ansible_facts['os_family']] | default(_jenkins_configuration_directory['default']) }}"
+jenkins_package: "{{ _jenkins_package[ansible_facts['distribution']] | default(_jenkins_package['default']) }}"
+jenkins_requirements: "{{ _jenkins_requirements[ansible_facts['os_family']] | default(_jenkins_requirements['default']) }}"
 jenkins_rpm_key: "https://jenkins.io/redhat/jenkins.io-2023.key"
 jenkins_yum_repository_baseurl: "https://pkg.jenkins.io/redhat/jenkins.repo"
 jenkins_zypper_repository_repo: "https://pkg.jenkins.io/opensuse/"

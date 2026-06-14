@@ -11,17 +11,17 @@
     url: "{{ jenkins_yum_repository_baseurl }}"
     validate_certs: false
   when:
-    - ansible_facts.pkg_mgr in [ "dnf", "yum" ]
+    - ansible_facts['pkg_mgr'] in [ "dnf", "yum" ]
 - name: Import rpm key
   ansible.builtin.rpm_key:
     key: "{{ jenkins_rpm_key }}"
     state: present
     validate_certs: false
   when:
-    - ansible_facts.pkg_mgr in [ "dnf", "yum", "zypper" ]
+    - ansible_facts['pkg_mgr'] in [ "dnf", "yum", "zypper" ]
 - name: Configure apt
   when:
-    - ansible_facts.pkg_mgr == "apt"
+    - ansible_facts['pkg_mgr'] == "apt"
   block:
     - name: Add apt key
       ansible.builtin.get_url:
@@ -38,7 +38,7 @@
     repo: "{{ jenkins_zypper_repository_repo }}"
     state: present
   when:
-    - ansible_facts.pkg_mgr == "zypper"
+    - ansible_facts['pkg_mgr'] == "zypper"
 - name: Install requirements
   ansible.builtin.package:
     name: "{{ jenkins_requirements }}"
