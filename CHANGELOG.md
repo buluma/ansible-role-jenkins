@@ -1,5 +1,15 @@
 # Changelog
 
+## [26.6.0](https://github.com/buluma/ansible-role-jenkins/tree/26.6.0) (2026-06-14)
+
+[Full Changelog](https://github.com/buluma/ansible-role-jenkins/compare/24.3.31...26.6.0)
+
+**Merged pull requests:**
+
+- Bump docker/setup-buildx-action from 3 to 4 [\#47](https://github.com/buluma/ansible-role-jenkins/pull/47) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 26.1.1 to 26.2.0 [\#46](https://github.com/buluma/ansible-role-jenkins/pull/46) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 4 to 6 [\#45](https://github.com/buluma/ansible-role-jenkins/pull/45) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [24.3.31](https://github.com/buluma/ansible-role-jenkins/tree/24.3.31) (2024-03-29)
 
 [Full Changelog](https://github.com/buluma/ansible-role-jenkins/compare/4.6.0...24.3.31)
