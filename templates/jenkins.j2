@@ -46,7 +46,7 @@ JENKINS_USER="jenkins"
 #
 # Options to pass to java when running Jenkins.
 #
-JENKINS_JAVA_OPTIONS="-Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djenkins.install.runSetupWizard=false"
+JAVA_ARGS="-Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djenkins.install.runSetupWizard=false"
 
 ## Type:        integer(0:65535)
 ## Default:     8080
@@ -55,7 +55,7 @@ JENKINS_JAVA_OPTIONS="-Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -
 # Port Jenkins is listening on.
 # Set to -1 to disable
 #
-JENKINS_PORT="{{ jenkins_port }}"
+HTTP_PORT="{{ jenkins_port }}"
 
 ## Type:        string
 ## Default:     ""
@@ -143,4 +143,4 @@ JENKINS_HANDLER_IDLE="20"
 # Pass arbitrary arguments to Jenkins.
 # Full option list: java -jar jenkins.war --help
 #
-JENKINS_ARGS=""
+JENKINS_ARGS="--webroot=/var/cache/jenkins/war --httpPort={{ jenkins_port }}"

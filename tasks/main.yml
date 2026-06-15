@@ -65,6 +65,29 @@
   notify:
     - Restart jenkins
   # Separator for the pre-commit handler parser.
+- name: Create jenkins systemd drop-in directory
+  ansible.builtin.file:
+    path: /etc/systemd/system/jenkins.service.d
+    state: directory
+    mode: "0755"
+    owner: root
+    group: root
+  when:
+    - ansible_facts['service_mgr'] == "systemd"
+- name: Configure jenkins systemd timeout override
+  ansible.builtin.copy:
+    dest: /etc/systemd/system/jenkins.service.d/timeout.conf
+    content: |
+      [Service]
+      TimeoutStartSec=300
+    mode: "0644"
+    owner: root
+    group: root
+  notify:
+    - Reload systemd
+    - Restart jenkins
+  when:
+    - ansible_facts['service_mgr'] == "systemd"
 - name: Manage jenkins service
   ansible.builtin.service:
     enabled: true
