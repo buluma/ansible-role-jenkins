@@ -88,6 +88,11 @@
     - Restart jenkins
   when:
     - ansible_facts['service_mgr'] == "systemd"
+- name: Reload systemd daemon before starting jenkins
+  ansible.builtin.systemd:
+    daemon_reload: true
+  when:
+    - ansible_facts['service_mgr'] == "systemd"
 - name: Manage jenkins service
   ansible.builtin.service:
     enabled: true

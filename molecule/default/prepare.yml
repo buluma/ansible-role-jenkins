@@ -6,7 +6,6 @@
   roles:
     - role: buluma.bootstrap
     - role: buluma.epel
-    - java_default_version: 17
-      role: buluma.java
+    - role: buluma.java
     - role: buluma.locale
     - role: buluma.core_dependencies
