@@ -64,7 +64,7 @@
     src: jenkins.j2
   notify:
     - Restart jenkins
-  # Separator for the pre-commit handler parser.
+# Separator for the pre-commit handler parser.
 - name: Create jenkins systemd drop-in directory
   ansible.builtin.file:
     path: /etc/systemd/system/jenkins.service.d
