@@ -9,12 +9,9 @@ platforms:
   - name: Debian
     versions:
       - all
-  - name: Fedora
-    versions:
-      # Excludes 45: it ships Python 3.15.0b3, whose dataclasses module
-      # dropped _is_type, breaking ansible-core's AnsiballZ module wrapper.
-      - "44"
-      - "43"
+  # Fedora excluded: the jenkins.io yum repo only publishes packages for
+  # RHEL-compatible distros and Debian/Ubuntu, not Fedora. "No package
+  # jenkins available" on every Fedora release.
   - name: Ubuntu
     versions:
       - all
