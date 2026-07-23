@@ -37,5 +37,10 @@
     - role: buluma.bootstrap
     - role: buluma.epel
     - role: buluma.java
+      # Recent Jenkins releases refuse to start under Java < 21; the
+      # java role's own per-distro default (11/17 on several platforms)
+      # is too old for jenkins specifically.
+      vars:
+        java_version: "21"
     - role: buluma.locale
     - role: buluma.core_dependencies
