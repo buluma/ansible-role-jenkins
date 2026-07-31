@@ -1,5 +1,9 @@
 # Changelog
 
+## [26.6.4](https://github.com/buluma/ansible-role-jenkins/tree/26.6.4) (2026-07-23)
+
+[Full Changelog](https://github.com/buluma/ansible-role-jenkins/compare/26.6.3...26.6.4)
+
 ## [26.6.3](https://github.com/buluma/ansible-role-jenkins/tree/26.6.3) (2026-06-15)
 
 [Full Changelog](https://github.com/buluma/ansible-role-jenkins/compare/26.6.2...26.6.3)
