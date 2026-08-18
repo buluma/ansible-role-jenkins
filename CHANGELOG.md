@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- chore\(deps\): bump ansible/ansible-lint from 26.6.0 to 26.8.0 [\#55](https://github.com/buluma/ansible-role-jenkins/pull/55) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 7 to 7.6.0 [\#54](https://github.com/buluma/ansible-role-jenkins/pull/54) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [26.6.4](https://github.com/buluma/ansible-role-jenkins/tree/26.6.4) (2026-07-23)
