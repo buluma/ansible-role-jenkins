@@ -50,7 +50,8 @@
       ansible.builtin.file:
         path: "/etc/apt/sources.list.d/{{ _jenkins_apt_repository_uri | regex_replace('[^A-Za-z0-9]+', '_') | trim('_') }}.list"
         state: absent
-    - name: Add apt repository
+    # The noqa is there because ansible-lint can't validate the templated types.
+    - name: Add apt repository  # noqa: args[module]
       ansible.builtin.deb822_repository:
         name: "{{ _jenkins_apt_repository_name }}"
         types: "{{ _jenkins_apt_repository_types }}"
