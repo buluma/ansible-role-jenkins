@@ -62,6 +62,11 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
     - role: buluma.bootstrap
     - role: buluma.epel
     - role: buluma.java
+      # Recent Jenkins releases refuse to start under Java < 21; the
+      # java role's own per-distro default (11/17 on several platforms)
+      # is too old for jenkins specifically.
+      vars:
+        java_version: "21"
     - role: buluma.locale
     - role: buluma.core_dependencies
 ```
@@ -109,8 +114,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |container|tags|
 |---------|----|
 |[EL](https://hub.docker.com/r/buluma/docker-molecule-images)|10, 9|
-|[Debian](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
-|[Fedora](https://hub.docker.com/r/buluma/docker-molecule-images)|44, 43|
+|[Debian](https://hub.docker.com/r/buluma/docker-molecule-images)|13|
 |[Ubuntu](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
 
 The minimum version of Ansible required is 2.19, tests have been done on:
